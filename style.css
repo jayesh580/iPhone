@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+/* .bor{
+    border: 1px solid red;
+} */
+
+.navbar-nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.bg-light1{
+    background: rgba(0, 0, 0, 0.8);
+}
+.navbar{
+    height: 44px;
+    position: relative;
+}
+.bg-light1 .container-fluid{
+    height: 44px;
+}
+.apple_logo img{
+    height: 60px;
+    width: 44px;
+    background-repeat: no-repeat;
+}
+.apple_logo svg{
+    height: 20px;
+    width: 45px;
+    color: white;
+}
+.navbar-nav{
+    width: 80%;
+}
+.iPhone_section1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+}
+.iphone_head h1{
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.005em;
+}
+.link_text{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.link_text a{
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.iPhone_section2{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    align-items: center;
+    background-color: black;
+}
+.iPhone_section2 .iphone_head h1{
+    color: #ffffff;
+}
+.iPhone_section2 .inner_text h3{
+    color: #ffffff;
+}  
